@@ -1,4 +1,7 @@
-
+-- Dark Dex --
+if game:GetService'CoreGui':FindFirstChild'Dex' then
+    game:GetService'CoreGui'.Dex:Destroy();
+end
  
 math.randomseed(tick())
  
@@ -57,4 +60,3 @@ LoadScripts(Obj)
 end
  
 Load(Dex)
-	end
